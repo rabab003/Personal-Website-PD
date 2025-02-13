@@ -7,6 +7,7 @@ export const Navbar = () => {
                     Rabab <span className="text-blue-500">.Dev</span>
                 </a>
                 <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden">
+                    <a href="#home" className="text-gray-300 hover:text-white">Home</a>
 
                 </div>
 
