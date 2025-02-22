@@ -12,10 +12,18 @@ export const Projects = () =>{
 
                 <div>
                     {['React', "Node js", "AWS", "Docker"].map((tech, key)=>(
-                        <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition"></span>
+                        <span 
+                        key={key} 
+                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition"></span>
                     ))}
 
                 </div>
+
+                <div className="flex justify-between items-center">
+                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project ">"</a>
+                    
+                <div/>
+
 
 
             </div>
